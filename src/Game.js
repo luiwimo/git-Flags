@@ -66,6 +66,7 @@ class Game {
 
             } else {
                 respuesta.innerHTML = 'Incorrecto'
+                location.reload();
             }
         }
 
